@@ -20724,6 +20724,19 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		battleOnly: "Ramnarok",
 		gen: 9,
 	},
+	cottentel: {
+		num: -79,
+		name: "Cottentel",
+		types: ["Grass", "Fairy"],
+		gender: "F",
+		baseStats: { hp: 70, atk: 36, def: 85, spa: 127, spd: 102, spe: 49 },
+		abilities: { 0: "Cotton Down", 1:"Effect Spore", H:"Misty Surge"  },
+		heightm: 1,
+		weightkg: 2,
+		color: "Green",
+		eggGroups: ["Undiscovered"],
+		gen: 9,
+	},
 	// NOTE: PokeStar "formes" are not actually formes and thus do not have a formeOrder
 	pokestarsmeargle: {
 		num: -5000,
